@@ -73,7 +73,7 @@ There are a few different ways to give the bot your non-pretty printed JSON as i
 - Message
 
 ### Command:
-- ``.pretty_print`` [input]
+- ``.pprint`` [input]
 
 > **Example of a message as input:**
 > <p align="left">
