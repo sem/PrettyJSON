@@ -75,15 +75,20 @@ There are a few different ways to give the bot your non-pretty printed JSON as i
 ### Command:
 - ``.pretty_print`` [input]
 
-> **Example:**
+> **Example of a message as input:**
 > <p align="left">
-> <img width="555" alt="134870026-cb4d7ad8-b749-4773-a7e7-d66af4a3c72c" src="https://user-images.githubusercontent.com/78478073/137632659-dcbc7405-6e89-498e-98f1-478feb823fd5.png">
+> <img width="455" alt="Screenshot 2021-10-17 at 21 39 39" src="https://user-images.githubusercontent.com/78478073/137642487-8f5f170b-0dcd-448a-8673-e905966efe0f.png">
+> </p>
+>
+> **Example of a JSON file as input:**
+> <p align="left">
+> <img width="455" alt="Screenshot 2021-10-17 at 21 39 39" src="https://user-images.githubusercontent.com/78478073/137642847-cdab4e31-7e25-42dc-8dc3-71ba48625bcc.gif">
 > </p>
 > 
 > If the output has less than 2000 characters, it will be returned as text and a ``📁`` reaction will be added to it. If you press the reaction you will receive the same output in a JSON file format.
 
 ## Installation
-PrettyJSON is being hosted 24/7, so there is no need to worry about that. If you don't want to host yourself, but wish to use the bot in your Discord server, then please look at [how to invite](#how-to-invite).
+PrettyJSON is being hosted 24/7, so there is no need to worry about that. If you don't want to host yourself, but wish to use the bot in your Discord server, then please look at [how to invite](#how-to-invite). But if you would like to host the bot yourself or make changes to the code, then you can check out the following steps.
 
 1. Clone the repository 
 ```git clone https://github.com/semmoolenschot/PrettyJSON.git```
@@ -91,8 +96,6 @@ PrettyJSON is being hosted 24/7, so there is no need to worry about that. If you
 ```pip install -r requirements.txt```
 3. Make sure to insert your own token in line 16 in ``bot.py``
 4. Run the bot ```python3 bot.py```
-
-
 
 ## How to invite
 1. Go to PrettyJSON's [invitation link](https://discord.com/api/oauth2/authorize?client_id=899018611253989406&permissions=534723950656&scope=bot)
