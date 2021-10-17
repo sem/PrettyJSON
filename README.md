@@ -85,7 +85,7 @@ There are a few different ways to give the bot your non-pretty printed JSON as i
 > <img width="455" alt="Screenshot 2021-10-17 at 21 39 39" src="https://user-images.githubusercontent.com/78478073/137642847-cdab4e31-7e25-42dc-8dc3-71ba48625bcc.gif">
 > </p>
 > 
-> If the output has less than 2000 characters, it will be returned as text and a ``📁`` reaction will be added to it. If you press the reaction you will receive the same output in a JSON file format.
+> If the output has less than 2000 characters, it will be sent back as text and a ``📁`` reaction will be added to the message. If you press this reaction, you will receive the output as a JSON file.
 
 ## Installation
 PrettyJSON is being hosted 24/7, so there is no need to worry about that. If you don't want to host yourself, but wish to use the bot in your Discord server, then please look at [how to invite](#how-to-invite). But if you would like to host the bot yourself or make changes to the code, then you can check out the following steps.
