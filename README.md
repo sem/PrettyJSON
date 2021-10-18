@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<a href="https://discord.com/api/oauth2/authorize?client_id=899018611253989406&permissions=534723950656&scope=bot">Invite PrettyJSON to your server</a>
+<a href="https://discord.com/api/oauth2/authorize?client_id=899018611253989406&permissions=534723950656&scope=bot">Invite PrettyJSON to your Discord server</a>
 </p>
 
 # Table of contents
@@ -20,7 +20,7 @@
 - [License](#license)
 
 ## About the project
-Since programming with other users on the group-chatting platform [Discord](https://discord.com) has become very popular, its use in bots has also increased. Several bots have already been released to make programming together within a community or group easier. For example, we have bots to compile code or to monitor Github Commits. Since you can often find yourself in a place where you use JSON data in your code, it could be helpful if this data is neatly organized, but unfortunately this is not always the case. Usually the easiest way to quickly format your JSON data is by using an online website where you would paste your text and it would format it very nicely for you. With the lazy mindset of mine, I thought that it would be way easier if this could be done through a Discord bot as well. And well, here we are.
+Since programming with other users on the group-chatting platform [Discord](https://discord.com) has become very popular, its use in bots has also increased. Several bots have already been released to make programming together within a community or group easier. For example, we have bots to compile code or to keep track of GitHub commits. Since you can often find yourself in a position where you use JSON data in your code, it could be helpful if this data is neatly formatted, but unfortunately this is not always the case. Usually the easiest way to quickly format your JSON data is by using an online website where you would paste your text and it would format it very nicely for you. With the lazy mindset of mine, I thought that it would be way easier and more convenient if this could be done through a Discord bot as well. And well, here we are.
 
 ### What is JSON?
 JSON (**JavaScript Object Notation**) is a lightweight data-interchange format. It is easy for humans to read and write, and it's easy for machines to parse and generate. Although JSON is derived from JavaScript, it is supported either natively or through libraries in most major programming languages. JSON is commonly, but not exclusively, used to exchange information between web clients and web servers. It is a generic data format with a minimal number of value types: **strings**, **numbers**, **booleans**, **lists**, **objects**, and **null**.
@@ -99,7 +99,7 @@ PrettyJSON is being hosted 24/7, so there is no need to worry about that. If you
 
 ## How to invite
 1. Go to PrettyJSON's [invitation link](https://discord.com/api/oauth2/authorize?client_id=899018611253989406&permissions=534723950656&scope=bot)
-2. Select the server where you would like to add the bot.
+2. Select the server where you would like to add the bot
 3. Make sure PrettyJSON has the right permissions
 4. Authorize
 
