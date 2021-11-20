@@ -12,6 +12,8 @@ async def unload(ctx, extension):
     bot.unload_extension(extension)
     print('Unloaded ' + extension)
 
-bot.load_extension('cog') # Loading cog by default without need of commands.
+bot.load_extension('cog') # Loading cog by default without need of any commands.
 
 bot.run(os.getenv('TOKEN')) # Token
+# bot.run("")
+

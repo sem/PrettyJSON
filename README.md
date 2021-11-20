@@ -73,7 +73,7 @@ There are a few different ways to give the bot your non-pretty printed JSON as i
 - Message
 
 ### Command:
-- ``.pprint`` [input]
+- ``.pprint`` *input*
 
 > **Example of a message as input:**
 > <p align="left">
@@ -88,14 +88,12 @@ There are a few different ways to give the bot your non-pretty printed JSON as i
 > If the output has less than 2000 characters, it will be sent back as text and a ``📁`` reaction will be added to the message. If you press this reaction, you will receive the output as a JSON file.
 
 ## Installation
-PrettyJSON is being hosted 24/7, so there is no need to worry about that. If you don't want to host yourself, but wish to use the bot in your Discord server, then please look at [how to invite](#how-to-invite). But if you would like to host the bot yourself or make changes to the code, then you can check out the following steps.
+If you don't want to host yourself, but wish to use the bot in your Discord server, then please look at [how to invite](#how-to-invite). If you would like to host the bot yourself, then you can check out the following steps. There is a docker image set up so you can run PrettyJSON yourself, here is a link to the [repository](https://hub.docker.com/repository/docker/moolenschot/bot_pretty_json) in case you need it.
 
-1. Clone the repository 
-```git clone https://github.com/semmoolenschot/PrettyJSON.git```
-2. Install the requirements
-```pip install -r requirements.txt```
-3. Make sure to insert your own token in line 16 in ``bot.py``
-4. Run the bot ```python3 bot.py```
+1. Make sure you have your Discord application and your bot set up.
+2. Go to your terminal and run ```docker run -e TOKEN=OTExNjM3ODk1NzQyMzg2MjS2.YZkS8w.CA8RORyQCaxHHBa7UAigQaVCrX0 -d moolenschot/bot_pretty_json``` *(example token, please make sure to use your own)*
+3. Now the image is successfully pulled and being ran, so you're ready to go! 
+4. To make sure the image has successfully ran, you can use ```docker ps```.
 
 ## How to invite
 1. Go to PrettyJSON's [invitation link](https://discord.com/api/oauth2/authorize?client_id=899018611253989406&permissions=534723950656&scope=bot)
